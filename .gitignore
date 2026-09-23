@@ -1,0 +1,15 @@
+
+# Secrets
+.env
+
+# Python
+.venv/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# IDE
+.vscode/
+.idea/
