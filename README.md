@@ -1,15 +1,18 @@
-Welcome to your new dbt project!
+# dbt Hiring Analytics
 
-### Using the starter project
+This repository contains a dbt Core project built as part of the Hiring Analytics training program.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Tech Stack
 
+- dbt Core 1.12
+- Snowflake
+- Git & GitHub
+- Python Virtual Environment
 
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Project Setup
+
+### Install dependencies
+
+```bash
+pip install dbt-core
+pip install dbt-snowflake
